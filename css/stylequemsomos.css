@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family= Alkatra & display=swap') ;
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box ;
+    font-size:20px;
+    font-family: 'Alkatra', cursive;
+    
+}
+#inicio{
+    display: flex;
+    text-align: center;
+    background-color: #322c1c;
+    color:  rgb(170, 206, 22);
+}
+
+    
+
+#inicio img{
+    
+}
+#inicio div{
+    margin-right: 150px;
+    margin-left: 150px;
+    margin-block: 40px;
+    font-size: 25px;   
+}
+#inicio div h1{
+    margin-left: -150px;
+    margin-right: -150px;
+font-size: 35px;
+}
+    
+#menu-h{
+    background-color: rgb(170, 206, 22);
+    list-style: 0;
+    padding: 0;
+    text-align: center;
+    
+
+}
+#menu-h ul li{
+    display: inline;
+ 
+  
+}
+#menu-h ul li:last-child{
+    float: right;
+
+}
+#menu-h ul li:first-child{
+    float:left
+}
+
+#menu-h ul li a{
+    display: inline-block;
+    color: rgb(93, 68, 10);
+    text-decoration: none;  
+    padding: 13px;
+    
+ }
+ #menu-h ul li a:hover{
+   background-color: rgb(72, 61, 7) ;
+   color: rgb(176, 159, 27);
+   
