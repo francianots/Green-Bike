@@ -16,19 +16,17 @@
 
     
 
-#inicio img{
-    
-}
+
 #inicio div{
-    margin-right: 150px;
-    margin-left: 150px;
+    margin-right: 125px;
+    margin-left: 125px;
     margin-block: 40px;
     font-size: 25px;   
 }
 #inicio div h1{
     margin-left: -150px;
     margin-right: -150px;
-font-size: 35px;
+    font-size: 35px;
 }
     
 #menu-h{
@@ -72,11 +70,14 @@ aside{
     background-size: 500px 500px
     
 }
-main{
+aside main{
     text-align: center;
     padding: 160px;
     color:  #322c1c;
     font-size: 25px;  
     background-color: rgba(72, 143, 15, 0.6);
 
+}
+aside main h2{
+    font-size: 30px;
 }
