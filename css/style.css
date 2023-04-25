@@ -61,9 +61,7 @@
     margin-right: -150px;
     font-size: 35px;
 }
-#inicio div ul a{
-   
-}
+
 #inicio div ul a{
     background-color: rgb(244, 16, 16);    
     display: inline-block;
@@ -81,7 +79,7 @@
 
 aside{
 
-    background-image: url(../imagem/mobilidade-sustentavel.png);
+    background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
     background-size: 500px 500px
     
@@ -90,10 +88,79 @@ aside main{
     text-align: center;
     padding: 160px;
     color:  #322c1c;
-    font-size: 25px;  
+    font-size: 28px;  
     background-color: rgba(72, 143, 15, 0.6);
 
 }
 aside main h2{
     font-size: 30px;
 }
+
+#resistencia{
+    background-color: #322c1c;
+    font-size: 25px;
+    display: flex;
+    color: rgb(170, 206, 22);
+}
+#resistencia div{
+    text-align: center;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-block: 120px;
+    font-size: 30px;   
+}
+#resistencia div h2{
+    font-size: 40px;
+    margin-block: 40px;
+}
+#disponibilidade{
+    display: flex;
+    background-color: #322c1c;
+   
+}
+#disponibilidade div{
+    text-align: center;
+    margin-right: 125px;
+    margin-left: 125px;
+    margin-block: 105px;
+    font-size: 30px;
+    color:rgb(170, 206, 22);
+}
+#disponibilidade div h2{
+    font-size: 40px;
+    margin-block: 40px;
+}
+#ambientais{
+    background-color: #322c1c;
+    font-size: 25px;
+    display: flex;
+    color: rgb(170, 206, 22);
+}
+#ambientais div{
+text-align: center;
+margin-block: 10px;
+margin-left: 125px;
+margin-right: 125px;
+font-size: 30px;
+}
+#ambientais div h2{
+    font-size: 40px;
+    margin-block: 40px;
+}
+#pedalada{
+    background-color: #322c1c;
+    font-size: 25px;
+    display: flex;
+    color: rgb(170, 206, 22);
+}
+#pedalada div{
+    text-align: center;
+    margin-block: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 30px;
+    }
+#pedalada div h2{
+        font-size: 40px;
+        margin-block: 20px;
+    }
