@@ -6,6 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastre-se</title>
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body{
+            background-image: url(../imagem/FlorestaBambu.avif);
+            
+        }
+        #cadastro{
+                 
+                 margin: auto;
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+                 padding: 20px;
+                 background-color:rgba(50, 44, 28, 0.766);
+                 border-radius: 5px;
+                 box-shadow: 0px 0px 20px rgb(194, 243, 1);
+                 color:rgb(194, 243, 1);
+                 line-height: 40px;
+                 margin-top: 40px;
+        }
+        #cadastro h1{
+            font-size: 40px;
+            text-align: center;
+        }
+        #cadastro h2{
+            font-size: 25px;
+        }
+    </style>
+
 </head>
 <body>
     <nav id="menu-h">
@@ -19,22 +48,44 @@
         </ul>
     </nav> 
     <nav id="cadastro">
-        <h1>*Campos obrigatorios</h1>
-            <label>*Primeiro nome</label><input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" size="50" maxlength="80"/><br>
-            <label>*Sobrenome</label><input type="name" name="Sobrenome" placeholder="*Digite seu sobrenome" size="50" maxlength="80"/>
+        <h1>Cadastre-se</h1>     
+        
+            <label>*Primeiro nome</label>
+            <input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" /><br>
+
+            <label>*Sobrenome</label>
+            <input type="name" name="Sobrenome" placeholder="*Digite seu sobrenome"/><br>
+
             *Sexo<input type="radio" name="sexo" id="Masculino" value="M"/><label for="Masculino">Masculino</label>
             <input type="radio" name="sexo" id="Feminino" value="F"/><label for="Feminino">Feminino</label><br>
-            <label>*Data de Nascimento</label><input type="date" name="Data_nascimento"/>
-            <label>*CPF</label><input type="number" name="CPF" placeholder="Digite seu CPF" size="50" maxlength="11" minlength="11">
-            <label>*RG</label><input type="number" name="RG" placeholder="Digite seu RG" size="50" maxlength="9"><br>
+
+            <label>*Data de Nascimento</label>
+            <input type="date" name="Data_nascimento"/><br>
+
+            <label>*CPF</label><input type="number" name="CPF" placeholder="Digite seu CPF"  maxlength="11" minlength="11">
+
+            <label>*RG</label><input type="number" name="RG" placeholder="Digite seu RG"  maxlength="9"><br>
+
             <h2>Endereço</h2>
-            <label>*Seu CEP</label><input type="number" name="CEP" placeholder="Digite seu CEP" size="50" maxlength="8" minlength="8">
-            <label>*Nome da rua</label> <input type="text" name="nome_rua" placeholder="Digite o nome da sua Rua" size="50" maxlength="100"><br>
-            <label>*Número</label><input type="number" name="numero" placeholder="Digite um número" size="50" maxlength="10" minlength="1">
-            <label>Complemento</label><input type="text" name="complemento" placeholder="Digite um complemento" maxlength="50"><br>
-            <label>*Bairro</label><input type="text" name="Bairro" placeholder="Digite seu bairro" maxlength="50" minlength="3">
-            <label>*Cidade</label><input type="text" name="Cidade"placeholder="Digite sua cidade" maxlength="50" minlength="3">
-            <label>*Estado</label><input type="text" name="Estado"placeholder="Digite seu estado" maxlength="50" minlength="3">
+
+            <label>*Seu CEP</label><input type="number" name="CEP" placeholder="Digite seu CEP">
+            
+            <label>*Rua</label>
+            <input type="text" name="nome_rua" placeholder="Digite o nome da sua Rua"><br>
+
+            <label>*Número</label><input type="number" name="numero" placeholder="Digite um número" maxlength="10" minlength="1">
+
+            <label>Complemento</label>
+            <input type="text" name="complemento" placeholder="Digite um complemento" maxlength="50"><br>
+
+            <label>*Bairro</label>
+            <input type="text" name="Bairro" placeholder="Digite seu bairro" maxlength="50" minlength="3">
+
+            <label>*Cidade</label>
+            <input type="text" name="Cidade"placeholder="Digite sua cidade" maxlength="50" minlength="3">
+
+            <label>*Estado</label>
+            <input type="text" name="Estado"placeholder="Digite seu estado" maxlength="50" minlength="3">
 
 
             
