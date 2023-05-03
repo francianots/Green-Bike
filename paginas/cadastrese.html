@@ -12,19 +12,14 @@
             
         }
         #cadastro{
-                 
-                 margin: auto;
-                 position: absolute;
-                 top: 50%;
-                 left: 50%;
-                 transform: translate(-50%, -50%);
-                 padding: 20px;
+                 padding: 40px;
                  background-color:rgba(50, 44, 28, 0.766);
                  border-radius: 5px;
                  box-shadow: 0px 0px 20px rgb(194, 243, 1);
                  color:rgb(194, 243, 1);
                  line-height: 40px;
-                 margin-top: 40px;
+                 margin-block: 3%;
+                 width: 70%;        
         }
         #cadastro h1{
             font-size: 40px;
@@ -32,6 +27,21 @@
         }
         #cadastro h2{
             font-size: 25px;
+            line-height: 70px;
+        }
+        input[type="button"] {
+                background-color: #4CAF50;
+                color: #fff;
+                border: none;
+                padding: 10px;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                display: flex;
+        }
+        input[type="button"]:hover {
+                background-color: #3e8e41;
+                box-shadow: 0px 0px 20px rgb(194, 243, 1);
         }
     </style>
 
@@ -39,7 +49,7 @@
 <body>
     <nav id="menu-h">
         <ul>
-            <li><a href="../index.html">Inicio</a></li>
+            <div><a href="index.html"><img src="../imagem/MiniLogoGB_SemFundo.png" alt="" width="7%"></a></div>
             <li><a href="../paginas/nossasbikes.html">Nossas bikes</a></li>
             <li><a href="../paginas/cadastrese.html">Cadastre-se</a></li>
             <li><a href="../paginas/quemsomos.html">Quem somos</a></li>
@@ -47,51 +57,84 @@
             <li><a href="../paginas/entre.html">Entre</a></li>
         </ul>
     </nav> 
-    <nav id="cadastro">
-        <h1>Cadastre-se</h1>     
-        
+    <div id="cadastro">
+        <h1>Cadastre-se</h1><br>
+        <h2>Dados pessoais:</h2>
             <label>*Primeiro nome</label>
-            <input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" /><br>
+                <input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" />
 
             <label>*Sobrenome</label>
-            <input type="name" name="Sobrenome" placeholder="*Digite seu sobrenome"/><br>
+                <input type="name" name="Sobrenome" placeholder="*Digite seu sobrenome"/><br>
 
-            *Sexo<input type="radio" name="sexo" id="Masculino" value="M"/><label for="Masculino">Masculino</label>
-            <input type="radio" name="sexo" id="Feminino" value="F"/><label for="Feminino">Feminino</label><br>
+            <Label>*Sexo:</Label>
+                <input type="radio" name="sexo" id="Masculino" value="M"/>
+            <label for="Masculino">Masculino</label>
+                <input type="radio" name="sexo" id="Feminino" value="F"/>
+            <label for="Feminino">Feminino</label>
 
             <label>*Data de Nascimento</label>
-            <input type="date" name="Data_nascimento"/><br>
+                <input type="date" name="Data_nascimento"/><br>
 
-            <label>*CPF</label><input type="number" name="CPF" placeholder="Digite seu CPF"  maxlength="11" minlength="11">
+            <label>*CPF</label>
+                <input type="number" name="CPF" placeholder="Digite seu CPF"  maxlength="11" minlength="11">
 
-            <label>*RG</label><input type="number" name="RG" placeholder="Digite seu RG"  maxlength="9"><br>
+            <label>*RG</label>
+                <input type="number" name="RG" placeholder="Digite seu RG"  maxlength="9"><br>
+            
+            <label>E-mail</label>
+                <input type="email" name="e-mail" placeholder="Digite deu e-mail">
 
-            <h2>Endereço</h2>
+            <h2>Endereço:</h2>
 
-            <label>*Seu CEP</label><input type="number" name="CEP" placeholder="Digite seu CEP">
+            <label>*CEP</label>
+                <input type="number" name="CEP" placeholder="Digite seu CEP">
             
             <label>*Rua</label>
-            <input type="text" name="nome_rua" placeholder="Digite o nome da sua Rua"><br>
+                <input type="text" name="nome_rua" placeholder="Digite o nome da sua Rua"><br>
 
-            <label>*Número</label><input type="number" name="numero" placeholder="Digite um número" maxlength="10" minlength="1">
+            <label>*Número</label>
+                <input type="text" name="numero" placeholder="Digite seu número">
 
             <label>Complemento</label>
-            <input type="text" name="complemento" placeholder="Digite um complemento" maxlength="50"><br>
+                <input type="text" name="complemento" placeholder="Digite um complemento" maxlength="50"><br>
 
             <label>*Bairro</label>
-            <input type="text" name="Bairro" placeholder="Digite seu bairro" maxlength="50" minlength="3">
+                <input type="text" name="Bairro" placeholder="Digite seu bairro" maxlength="50" minlength="3">
 
             <label>*Cidade</label>
-            <input type="text" name="Cidade"placeholder="Digite sua cidade" maxlength="50" minlength="3">
+                <input type="text" name="Cidade"placeholder="Digite sua cidade" maxlength="50" minlength="3"><br>
 
-            <label>*Estado</label>
-            <input type="text" name="Estado"placeholder="Digite seu estado" maxlength="50" minlength="3">
+            <label>*Estado</label><select name="Estado" id="Estado">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option> 
 
-
+                <input type="button" value="Enviar" onclick="validate()">                  
+            </div>
             
-            
-            
-        
-    </nav>
 </body>
 </html>

@@ -11,31 +11,48 @@ body{
     background-attachment: fixed;
     background-size: 100%;
 }
+#menu-h div{
+    display: inline;
+}
+
+#menu-h img{
+    
+    margin-top: %;
+    margin-bottom: -1%;
+}
+   
 #menu-h{
-    background-color: rgb(170, 206, 22);
-    list-style: 0;
-    padding: 0;
+    background-color: rgba(169, 206, 22, 0.859);
     text-align: center;
+    font-size: 1.5vw;
 }
 #menu-h ul li{
-    display: inline;
+    display: inline;   
 }
 #menu-h ul li:last-child{
     float: right;
-}
-#menu-h ul li:first-child{
-    float:left
+    padding: 1%; 
+    
 }
 #menu-h ul li a{
     display: inline-block;
     color: rgb(93, 68, 10);
     text-decoration: none;  
-    padding: 13px; 
+    padding: 1%; 
+    margin-left: 3%;
  }
  #menu-h ul li a:hover{
-   background-color: rgb(72, 61, 7) ;
-   color: rgb(176, 159, 27);
+   color: rgba(93, 68, 10, 0.516);
+   text-shadow: 0px 0px 7px rgb(57, 44, 3);
+ }
+ #menu-h img:hover{
+   text-shadow: 0px 0px 7px rgb(57, 44, 3);
    
+   background-image: url(../imagem/MiniLogoGB_SemFundo2.png);
+   background-size: 101%;
+   background-repeat: no-repeat;
+   
+
  }
 #inicio{
     display: flex;
@@ -66,6 +83,7 @@ body{
 #inicio ul li a:hover{
     background-color: rgb(12, 136, 31) ;
     color: rgb(248, 248, 247);
+    box-shadow: 0px 0px 20px rgb(194, 243, 1);
 } 
 aside{
     background-color: white;
@@ -121,38 +139,39 @@ aside main h2{
     font-size: 3vw;
     margin-block: 40px;
 }
-#ambientais{
+#sustentabilidade{
     background-color: rgba(50, 44, 28, 0.766);
     font-size: 25px;
     display: flex;
     color: rgb(170, 206, 22);
     margin-top: 5%;
 }
-#ambientais div{
+#sustentabilidade div{
 text-align: center;
 margin-block: 10px;
 margin-left: 125px;
 margin-right: 125px;
 font-size: 2vw;
 }
-#ambientais div h2{
+#sustentabilidade div h2{
     font-size: 3vw;
     margin-block: 40px;
 }
-#pedalada{
+#Contribuição{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     color: rgb(170, 206, 22);
     margin-top: 5%;
+    margin-block: 5%;
 }
-#pedalada div{
+#Contribuição div{
     text-align: center;
     margin-block: 10px;
     margin-left: 100px;
     margin-right: 100px;
     font-size: 2vw;
     }
-#pedalada div h2{
+#Contribuição div h2{
         font-size: 3vw;
         margin-block: 20px;
     }
