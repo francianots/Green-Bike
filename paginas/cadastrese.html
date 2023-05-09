@@ -11,7 +11,7 @@
             background-image: url(../imagem/FlorestaBambu.avif);
             
         }
-        #cadastro{
+        form{
                  padding: 40px;
                  background-color:rgba(50, 44, 28, 0.766);
                  border-radius: 5px;
@@ -21,11 +21,11 @@
                  margin-block: 3%;
                  width: 70%;        
         }
-        #cadastro h1{
+        form h1{
             font-size: 40px;
             text-align: center;
         }
-        #cadastro h2{
+        form h2{
             font-size: 25px;
             line-height: 70px;
         }
@@ -51,20 +51,20 @@
         <ul>
             <div><a href="../index.html"><img src="../imagem/MiniLogoGB_SemFundo.png" alt="" width="7%"></a></div>
             <li><a href="../paginas/nossasbikes.html">Nossas bikes</a></li>
-            <li><a href="../paginas/cadastrese.html">Cadastre-se</a></li>
             <li><a href="../paginas/quemsomos.html">Quem somos</a></li>
-            <li><a href="../paginas/falecomnosco.html">Fale com nosco</a><li>
+            <li><a href="../paginas/cadastrese.html">Cadastre-se</a></li>
+            <li><a href="../paginas/falecomnosco.html">Contato<a><li>
             <li><a href="../paginas/entre.html">Entre</a></li>
         </ul>
     </nav> 
-    <div id="cadastro">
+    <form action="cadastro">
         <h1>Cadastre-se</h1><br>
         <h2>Dados pessoais:</h2>
             <label>*Primeiro nome</label>
-                <input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" />
+                <input type="name" name="Primeiro nome" placeholder="*Digite seu primeiro nome" id="nome"/>
 
             <label>*Sobrenome</label>
-                <input type="name" name="Sobrenome" placeholder="*Digite seu sobrenome"/><br>
+                <input type="name" name="sobrenome" placeholder="*Digite seu sobrenome" id="sobrenome"/><br>
 
             <Label>*Sexo:</Label>
                 <input type="radio" name="sexo" id="Masculino" value="M"/>
@@ -133,8 +133,17 @@
                 <option value="SE">Sergipe</option>
                 <option value="TO">Tocantins</option> 
 
-                <input type="button" value="Enviar" onclick="validate()">                  
-            </div>
+                <input type="button" value="Enviar" onclick="enviar()">  
+                <script>
+                        
+                    function enviar(){
+                        var nome = window.document.querySelector('input#nome').value
+                        var sobrenome = window.document.querySelector ('input#sobrenome').value
+                        var ns = nome +" "+ sobrenome
+                        alert("Cadastro realizado com sucesso. "+"Seja bem vindo " + ns );
+                    } 
+                </script>                
+            </form>
             
 </body>
 </html>

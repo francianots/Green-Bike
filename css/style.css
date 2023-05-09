@@ -22,7 +22,7 @@ body{
 }
    
 #menu-h{
-    background-color: rgba(169, 206, 22, 0.859);
+    background-color: rgba(191, 235, 14, 0.797);
     text-align: center;
     font-size: 1.5vw;
 }
@@ -97,6 +97,7 @@ aside main{
     color:  #322c1c;
     font-size: 2vw;  
     background-color: rgba(72, 143, 15, 0.6);
+    
 
 }
 aside main h2{
