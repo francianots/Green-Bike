@@ -10,43 +10,45 @@
 body{
     background-image: url("../imagem/FlorestaBambu.avif");
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-size: 100%;
+    background-color: chartreuse;
 }
-#menu-h div{
+header div{
     display: inline;
 }
 
-#menu-h img{
+header img{
     
     margin-top: 0.4%;
     margin-bottom: -1%;
 }
    
-#menu-h{
+header{
     background-color: rgba(191, 235, 14, 0.797);
     text-align: center;
     font-size: 1.5vw;
 }
-#menu-h ul li{
+header ul li{
     display: inline;   
 }
-#menu-h ul li:last-child{
+header ul li:last-child{
     float: right;
     padding: 1%; 
     
 }
-#menu-h ul li a{
+header ul li a{
     display: inline-block;
     color: rgb(93, 68, 10);
     text-decoration: none;  
     padding: 1%; 
     margin-left: 3%;
  }
- #menu-h ul li a:hover{
+ header ul li a:hover{
    color: rgba(93, 68, 10, 0.516);
    text-shadow: 0px 0px 7px rgb(57, 44, 3);
  }
- #menu-h img:hover{
+ header img:hover{
    text-shadow: 0px 0px 7px rgb(57, 44, 3);
    
    background-image: url(../imagem/MiniLogoGB_SemFundo2.png);
@@ -55,24 +57,24 @@ body{
    
 
  }
-#inicio{
+aside{
     display: flex;
     text-align: center;
     background-color: #322c1c;
     color:  rgb(170, 206, 22);
 }
-#inicio div{
+aside div{
     margin-right: 100px;
     margin-left: 100px;
     margin-block: 40px;
     font-size: 2vw;   
 }
-#inicio div h1{
+aside div h1{
     margin-left: -150px;
     margin-right: -150px;
     font-size: 3vw;
 }
-#inicio div ul a{
+aside div ul a{
     background-color: rgb(244, 16, 16);    
     display: inline-block;
     color: rgb(238, 244, 249);
@@ -81,18 +83,18 @@ body{
     border-radius: 10px; 
     font-size: 1.7vw;
 }
-#inicio ul li a:hover{
+aside ul li a:hover{
     background-color: rgb(12, 136, 31) ;
     color: rgb(248, 248, 247);
     box-shadow: 0px 0px 20px rgb(194, 243, 1);
 } 
-aside{
+main{
     background-color: white;
     background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
     background-size: 35%        
 }
-aside main{
+main div{
     text-align: center;
     padding: 160px;
     color:  #322c1c;
@@ -101,7 +103,7 @@ aside main{
     
 
 }
-aside main h2{
+main div h2{
     font-size: 3vw;
 }
 
@@ -176,4 +178,36 @@ font-size: 2vw;
 #Contribuição div h2{
         font-size: 3vw;
         margin-block: 20px;
+    }
+    footer{
+        margin-block: ;
+        text-align: center;
+        background-color: rgba(50, 44, 28, 0.893);
+        color: rgb(134, 134, 132);
+        display: flexbox;
+        
+    }
+    footer h1{
+        line-height: 3vw;
+        font-size: 1.5vw;
+
+    }
+    #sup{
+        font-size: 1vw;
+    }
+    #inf{
+        text-decoration: none;
+        font-size: 1vw;
+        margin-top: 1vw;
+
+    }
+    #inf a{
+        color:rgba(169, 206, 22, 0.695);
+        line-height: 3vw;
+        
+    }
+    #inf a:hover{
+        color:rgb(170, 206, 22);
+
+
     }
