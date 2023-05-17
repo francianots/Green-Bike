@@ -10,6 +10,7 @@ body{
     background-image: url("../imagem/FlorestaBambu.avif");
     background-attachment: fixed;
     background-size: 100%;
+    background-repeat: no-repeat;
 }
 header div{
     display: inline;
