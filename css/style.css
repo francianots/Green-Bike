@@ -4,13 +4,11 @@
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box ;
-    font-size: 105%;
-    font-family: 'Alcatra', cursive;     
+    font-family: 'Alcatra', cursive ;     
 }
 body{
     background-image: url("../imagem/FlorestaBambu.avif");
     background-attachment: fixed;
-    background-repeat: no-repeat;
     background-size: 100%;
     background-color: chartreuse;
 }
@@ -21,11 +19,11 @@ header div{
 header img{
     
     margin-top: 0.4%;
-    margin-bottom: -1%;
+    margin-bottom: -1.2vw;
 }
    
 header{
-    background-color: rgba(191, 235, 14, 0.797);
+    background-color: rgba(167, 235, 72, 0.888);
     text-align: center;
     font-size: 1.5vw;
 }
@@ -34,39 +32,39 @@ header ul li{
 }
 header ul li:last-child{
     float: right;
-    padding: 1%; 
+
     
 }
 header ul li a{
     display: inline-block;
     color: rgb(93, 68, 10);
     text-decoration: none;  
-    padding: 1%; 
+    padding: 1.2vw; 
     margin-left: 3%;
  }
  header ul li a:hover{
-   color: rgba(93, 68, 10, 0.516);
-   text-shadow: 0px 0px 7px rgb(57, 44, 3);
+   color: rgb(207, 204, 11);
+   text-shadow: 0px 0px 7px rgb(37, 34, 2);
+
  }
  header img:hover{
-   text-shadow: 0px 0px 7px rgb(57, 44, 3);
-   
+ 
    background-image: url(../imagem/MiniLogoGB_SemFundo2.png);
    background-size: 101%;
-   background-repeat: no-repeat;
+
    
 
  }
 aside{
-    display: flex;
+    display: flex;  
     text-align: center;
     background-color: #322c1c;
     color:  rgb(170, 206, 22);
 }
 aside div{
-    margin-right: 100px;
-    margin-left: 100px;
-    margin-block: 40px;
+    margin-right: 6%;
+    margin-left: 6%;
+    margin-block: 2%;
     font-size: 2vw;   
 }
 aside div h1{
@@ -79,8 +77,8 @@ aside div ul a{
     display: inline-block;
     color: rgb(238, 244, 249);
     text-decoration: none;  
-    padding: 13px;
-    border-radius: 10px; 
+    padding: 6%;
+    border-radius: 1vw; 
     font-size: 1.7vw;
 }
 aside ul li a:hover{
@@ -92,95 +90,93 @@ main{
     background-color: white;
     background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
-    background-size: 35%        
+    background-size: 30%        
 }
 main div{
     text-align: center;
-    padding: 160px;
-    color:  #322c1c;
+    padding: 5%;
+    color:  #312a1b;
     font-size: 2vw;  
-    background-color: rgba(72, 143, 15, 0.6);
+    background-color: rgba(73, 143, 15, 0.779);
     
 
 }
 main div h2{
     font-size: 3vw;
+    margin-bottom: 3%;
 }
 
 #resistencia{
     background-color: rgba(50, 44, 28, 0.766);
-    font-size: 25px;
     display: flex;
-    color: rgb(170, 206, 22);
     margin-top: 5%;
 }
 #resistencia div{
     text-align: center;
-    margin-right: 125px;
-    margin-left: 125px;
-    margin-block: 120px;
-    font-size: 2vw;   
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-block: 5%;
+    font-size: 2vw;
+    color: rgb(170, 206, 22);   
 }
 #resistencia div h2{
     font-size: 3vw;
-    margin-block: 40px;
+    margin-block: 5%;
 }
 #disponibilidade{
     display: flex;
     background-color: rgba(50, 44, 28, 0.766);
-    margin-top: 5%;
+    margin-block: 5%;
    
 }
 #disponibilidade div{
     text-align: center;
-    margin-right: 125px;
-    margin-left: 125px;
-    margin-block: 105px;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-block: 5%;
     font-size: 2vw;
     color:rgb(170, 206, 22);
 }
 #disponibilidade div h2{
     font-size: 3vw;
-    margin-block: 40px;
+    margin-block: 5%;
 }
 #sustentabilidade{
     background-color: rgba(50, 44, 28, 0.766);
-    font-size: 25px;
     display: flex;
-    color: rgb(170, 206, 22);
-    margin-top: 5%;
+    margin-block: 5%;
+
 }
 #sustentabilidade div{
 text-align: center;
-margin-block: 10px;
-margin-left: 125px;
-margin-right: 125px;
+margin-block: 5%;
+margin-left: 10%;
+margin-right: 10%;
 font-size: 2vw;
+color: rgb(170, 206, 22);
 }
 #sustentabilidade div h2{
     font-size: 3vw;
-    margin-block: 40px;
+    margin-block: 5%;
 }
 #Contribuição{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
-    color: rgb(170, 206, 22);
-    margin-top: 5%;
     margin-block: 5%;
 }
 #Contribuição div{
     text-align: center;
-    margin-block: 10px;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-block: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
     font-size: 2vw;
+    color: rgb(170, 206, 22);
     }
 #Contribuição div h2{
         font-size: 3vw;
-        margin-block: 20px;
+        margin-block: 5%;
     }
     footer{
-        margin-block: ;
         text-align: center;
         background-color: rgba(50, 44, 28, 0.893);
         color: rgb(134, 134, 132);
