@@ -84,7 +84,7 @@
 
     </style>
     <script>
-    function validate() {
+    function entrar() {
         var username = document.getElementById("username").value;
         var password = document.getElementById("password").value;
       
@@ -96,6 +96,9 @@
           location.href = "../paginas/nossasbikes.html"
         }
       }
+      function cadastre() {
+                  location.href = "../paginas/cadastrese.html"
+        }
       </script>
 </head>
 <body>
@@ -119,7 +122,8 @@
           <label for="password">Senha:</label>
           <input type="password" id="password" name="password" placeholder="Digite sua senha" minlength="8">
     
-          <input type="button" value="Entrar" onclick="validate()">
+          <input type="button" value="Entrar" onclick="entrar()"><br>
+          <input type="button" value="Cadastre-se" onclick="cadastre()">
         </form>
     
         <div id="alert"></div>
