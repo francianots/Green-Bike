@@ -1,10 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family= família= Roboto:ital@0;1 & display=swap');
 
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box ;
-    font-family: 'roboto', cursive;     
+    font-family: 'Poppins', sans-serif;     
 }
 body{
     background-image: url("../imagem/FlorestaBambu.avif");
@@ -89,7 +88,7 @@ main{
     background-color: white;
     background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
-    background-size: 30%        
+    background-size: 27%        
 }
 main div{
     text-align: center;
@@ -130,9 +129,9 @@ main div h2{
 }
 #disponibilidade div{
     text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-block: 5%;
+    margin-right: 12%;
+    margin-left: 12%;
+    margin-block: 8%;
     font-size: 2vw;
     color:rgb(170, 206, 22);
 }
