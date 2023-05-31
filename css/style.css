@@ -8,7 +8,7 @@
 body{
     background-image: url("../imagem/FlorestaBambu.avif");
     background-attachment: fixed;
-    background-size: 100% 100%;
+    background-size: 100vw 100vh;
 }
 header div{
     display: inline;
@@ -24,6 +24,7 @@ header{
     background-color: rgba(167, 235, 72, 0.888);
     text-align: center;
     font-size: 1.5vw;
+    
 }
 header ul li{
     display: inline;   
@@ -58,6 +59,7 @@ aside{
     text-align: center;
     background-color: #322c1c;
     color:  rgb(170, 206, 22);
+    width: 95%;
 }
 aside div{
     margin-right: 6%;
@@ -83,12 +85,15 @@ aside ul li a:hover{
     background-color: rgb(12, 136, 31) ;
     color: rgb(248, 248, 247);
     box-shadow: 0px 0px 20px rgb(194, 243, 1);
+    
 } 
 main{
     background-color: white;
     background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
-    background-size: 27%        
+    background-size: 27%;    
+    width: 95%;
+        
 }
 main div{
     text-align: center;
@@ -96,6 +101,7 @@ main div{
     color:  #312a1b;
     font-size: 2vw;  
     background-color: rgba(73, 143, 15, 0.779);
+    width: 100%;
     
 
 }
@@ -108,6 +114,7 @@ main div h2{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     margin-top: 5%;
+    width: 95%;
 }
 #resistencia div{
     text-align: center;
@@ -125,6 +132,7 @@ main div h2{
     display: flex;
     background-color: rgba(50, 44, 28, 0.766);
     margin-block: 5%;
+    width: 95%;
    
 }
 #disponibilidade div{
@@ -143,6 +151,7 @@ main div h2{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     margin-block: 5%;
+    width: 95%;
 
 }
 #sustentabilidade div{
@@ -161,6 +170,7 @@ color: rgb(170, 206, 22);
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     margin-block: 5%;
+    width: 95%;
 }
 #Contribuição div{
     text-align: center;
@@ -205,3 +215,122 @@ color: rgb(170, 206, 22);
 
 
     }
+    @media (max-width:535px) {
+        aside img {
+            display: none;
+        }
+        aside{
+            text-align: center;
+            width: 90%;
+
+        }
+        aside div{
+            font-size: 4vw;   
+    }
+    aside div h1{
+
+        font-size: 6vw;
+    }
+    aside div ul a{
+        font-size: 3vw;
+    }
+    main{
+
+        background-position: 50%;
+        background-size: 63%;    
+        width: 90%;
+            
+    }
+    main div{
+        font-size: 4vw;  
+    
+    
+    }
+    main div h2{
+        font-size: 6vw;
+    }
+    #resistencia{
+
+        display: inline-block;
+        margin-top: 5%;
+        width: 90%;
+        margin-inline: 5%;
+    }
+    #resistencia div{
+        margin-bottom: 10%;
+        font-size: 4vw;
+  
+    }
+    #resistencia img{
+        width: 100%;
+     }
+    #resistencia div h2{
+        font-size: 6vw;
+   
+}
+#disponibilidade{
+    display: inline-block;
+    margin-top: 5%;
+    width: 90%;
+    margin-inline: 5%;
+   
+}
+#disponibilidade div{
+    margin-bottom: 10%;
+        font-size: 4vw;
+}
+#disponibilidade img{
+    width: 100%;
+ }
+
+#disponibilidade div h2{
+    font-size: 6vw;
+}
+#sustentabilidade{
+    display: inline-block;
+    margin-top: 5%;
+    width: 90%;
+    margin-inline: 5%;
+
+}
+#sustentabilidade div{
+    margin-bottom: 10%;
+    font-size: 4vw;
+}
+#sustentabilidade img{
+    width: 100%;
+ }
+#sustentabilidade div h2{
+    font-size: 6vw;
+}
+#Contribuição{
+    display: inline-block;
+    margin-top: 5%;
+    width: 90%;
+    margin-inline: 5%;
+}
+#Contribuição div{
+    font-size: 4vw;
+    }
+    #Contribuição img{
+        width: 100%;
+     }
+#Contribuição div h2{
+    font-size: 6vw;
+    }
+        
+    footer h1{
+        line-height: 9vw;
+        font-size: 3vw;
+
+    }
+    #sup{
+        font-size: 3vw;
+    }
+    #inf{
+        text-decoration: none;
+        font-size: 3vw;
+        line-height: 6vw;
+    }
+
+}
