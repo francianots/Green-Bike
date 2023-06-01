@@ -1,14 +1,13 @@
-
 *{
     margin: 0 auto;
     padding: 0;
     box-sizing: border-box ;
-    font-family: 'Poppins', sans-serif;     
+    font-family: 'Poppins', sans-serif;  
 }
 body{
     background-image: url("../imagem/FlorestaBambu.avif");
     background-attachment: fixed;
-    background-size: 100vw 100vh;
+    background-size: cover;
 }
 header div{
     display: inline;
@@ -216,6 +215,22 @@ color: rgb(170, 206, 22);
 
     }
     @media (max-width:535px) {
+        body{
+           
+        }    
+        header{
+            font-size: 3.5vw;   
+        }
+        header ul li{
+            display: block;   
+        }
+        header ul li:last-child{
+            float:unset;
+        }
+         header img{
+            margin-left: 2%;
+            width: 15%;
+         }
         aside img {
             display: none;
         }
@@ -237,7 +252,7 @@ color: rgb(170, 206, 22);
     main{
 
         background-position: 50%;
-        background-size: 63%;    
+        background-size: 75%;    
         width: 90%;
             
     }
@@ -251,7 +266,7 @@ color: rgb(170, 206, 22);
     }
     #resistencia{
 
-        display: inline-block;
+        display: flow-root;
         margin-top: 5%;
         width: 90%;
         margin-inline: 5%;
@@ -269,7 +284,7 @@ color: rgb(170, 206, 22);
    
 }
 #disponibilidade{
-    display: inline-block;
+    display: flow-root;
     margin-top: 5%;
     width: 90%;
     margin-inline: 5%;
@@ -287,7 +302,7 @@ color: rgb(170, 206, 22);
     font-size: 6vw;
 }
 #sustentabilidade{
-    display: inline-block;
+    display: flow-root;
     margin-top: 5%;
     width: 90%;
     margin-inline: 5%;
@@ -304,7 +319,7 @@ color: rgb(170, 206, 22);
     font-size: 6vw;
 }
 #Contribuição{
-    display: inline-block;
+    display: flow-root;
     margin-top: 5%;
     width: 90%;
     margin-inline: 5%;
@@ -332,5 +347,4 @@ color: rgb(170, 206, 22);
         font-size: 3vw;
         line-height: 6vw;
     }
-
 }
