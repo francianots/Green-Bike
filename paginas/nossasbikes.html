@@ -9,92 +9,34 @@
     <link rel="stylesheet" href="../css/style.css">
     <link href="../css/bootstrap.min.css" rel="stylesheet">
     <style>
-        article h2{
+
+        .bike{
+            text-align: center;
+            border-radius: 10px;
+            background-color:rgba(50, 44, 28, 0.837);
+            color:rgb(170, 206, 22);
+            box-shadow: 0px 0px 20px rgb(194, 243, 1);
+            margin-top: 4%;
+            font-size: 1,5vw;
+            width: 30%;
+        }
+        .bike h2{
         margin-top: 3%;  
         font-style: italic;
         font-size: 2vw;
         }
-      img{
+        .bike img{
           margin-top: 5%;
         }
-        #plus{
-            text-align: center;
-            border-radius: 10px;
-            background-color:rgba(50, 44, 28, 0.766);
-            color:rgb(170, 206, 22);
-            box-shadow: 0px 0px 20px rgb(194, 243, 1);
-            margin-top: 4%;
-            font-size: 1,5vw;
-            width: 30%;
-            
-        }
-        #classic{
-            text-align: center;
-            border-radius: 10px;
-            background-color:rgba(50, 44, 28, 0.766);
-            color:rgb(170, 206, 22);
-            box-shadow: 0px 0px 20px rgb(194, 243, 1);
-            margin-top: 4%;
-            font-size: 1,5vw;
-            width: 30%;
-        }
-        #speed{
-            text-align: center;
-            border-radius: 10px;
-            background-color:rgba(50, 44, 28, 0.766);
-            color:rgb(170, 206, 22);
-            box-shadow: 0px 0px 20px rgb(194, 243, 1);
-            margin-top: 4%;
-            font-size: 1,5vw;
-            width: 30%;
-        }
-        #cargo{
-            text-align: center;
-            border-radius: 10px;
-            background-color:rgba(50, 44, 28, 0.766);
-            color:rgb(170, 206, 22);
-            box-shadow: 0px 0px 20px rgb(194, 243, 1);
-            margin-top: 4%;
-            font-size: 1,5vw;
-            width: 30%;
-        }
-        #sport{
-            text-align: center;
-            border-radius: 10px;
-            background-color:rgba(50, 44, 28, 0.766);
-            color:rgb(170, 206, 22);
-            box-shadow: 0px 0px 20px rgb(194, 243, 1);
-            margin-top: 4%;
-            font-size: 1,5vw;
-            width: 30%;
-            margin-bottom: 10%;
-        }   
-        @media (max-width:535px) {
-        article h2{
-        font-size: 5vw;
-        }
-        #plus{
-            font-size: 4vw;
-            width: 90%;
-            
-        }
-        #classic{
-            font-size: 4vw;
-            width: 90%;
-        }
-        #speed{
-            font-size: 4vw;
-            width: 90%;
-        }
-        #cargo{
-            font-size: 4vw;
-            width: 90%;
-        }
-        #sport{
+        @media (max-width:735px) {
+
+        .bike{
             font-size: 4vw;
             width: 90%;
         } 
-
+        .bike h2{
+        font-size: 5vw;
+        }
         }
     </style>
     
@@ -112,7 +54,7 @@
         </ul>
     </header>
 <article>
-          <div id="plus">
+          <div id="plus" class="bike">
             
             <img src="../imagem/GreenPlus.jpg" alt="Bicicleta de bambu tradicional" width="80%"><br>
             <table>
@@ -139,7 +81,7 @@
                 </tr>
             </table>
         </div>
-        <div id="classic">
+        <div id="classic" class="bike">
             <img src="../imagem/GreenClassic.webp" alt="Bicicleta de bambu classica" width="80%"><br>
             <h2>Green Classic</h2>
        <table>
@@ -165,7 +107,7 @@
           </tr>
       </table>
         </div>
-        <div id="speed">
+        <div id="speed" class="bike">
             <img src="../imagem/GreenSpeed.jpg" alt="Bicicleta de bambu speed" width="80%"><br>
             <table>
               <h2>Green Speed</h2>
@@ -191,7 +133,7 @@
                 </tr>
             </table>
         </div>
-        <div id="cargo">
+        <div id="cargo" class="bike">
           <img src="../imagem/GreenCargo.jpg" alt="Bicicleta de bambu para carga" width="80%"><br>
           <table>
             <h2>Green Cargo</h2>
@@ -218,7 +160,7 @@
               </tr>
           </table>
       </div>
-        <div id="sport">
+        <div id="sport" class="bike">
             <img src="../imagem/GreenSport.jpg" alt="Bicicleta de bambu Esporte" width="80%"><br>
             <table>
               <h2>Green Sport</h2>
@@ -270,7 +212,6 @@
     </div>
     
 </footer>
-<script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
 

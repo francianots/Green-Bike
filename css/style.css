@@ -106,13 +106,13 @@ main div h2{
     margin-bottom: 3%;
 }
 
-.bike{
+.ben{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     margin-top: 5%;
     width: 80%;
 }
-.bike div{
+.ben div{
     text-align: center;
     margin: 5%;
     align-items: center;
@@ -121,7 +121,7 @@ main div h2{
     color: rgb(170, 206, 22);
       
 }
-.bike div h2{
+.ben div h2{
     font-size: 3vw;
     margin-block: 5%;
 }
@@ -176,9 +176,10 @@ main div h2{
             width: 15%;
          }
         aside img {
-            display: none;
+            width: 100%;
         }
         aside{
+            display: block;
             text-align: center;
             width: 90%;
             box-shadow: 0px 0px 20px rgb(194, 243, 1);
@@ -210,26 +211,32 @@ main div h2{
     main div h2{
         font-size: 6vw;
     }
-    .bike{
-        display: flow-root;
+    .ben{
+        display: flex;
+        flex-direction: column;
         margin-top: 5%;
         width: 90%;
         margin-inline: 5%;
         box-shadow: 0px 0px 20px rgb(194, 243, 1);
     }
-    .bike div{
+    .ben div{
         margin-bottom: 10%;
         font-size: 4vw;
         padding: 5%;
           
     }
-    .bike div h2{
+    .ben div h2{
         font-size: 6vw;
     }
-    .bike img{
+    .ben img{
         width: 100%;
     }
-      
+    #disponibilidade{
+        flex-direction: column-reverse;
+    } 
+    #contribuição{
+        flex-direction: column-reverse;
+    }     
     footer h1{
         line-height: 9vw;
         font-size: 3vw;
