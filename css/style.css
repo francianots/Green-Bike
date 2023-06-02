@@ -58,18 +58,15 @@ aside{
     text-align: center;
     background-color: #322c1c;
     color:  rgb(170, 206, 22);
-    width: 95%;
+    width: 80%;
 }
 aside div{
-    margin-right: 6%;
-    margin-left: 6%;
-    margin-block: 2%;
+    padding: 3%;
     font-size: 2vw;   
 }
 aside div h1{
-    margin-left: -150px;
-    margin-right: -150px;
-    font-size: 3vw;
+    font-size: 2.8vw;
+    margin: 0 -10% 
 }
 aside div ul a{
     background-color: rgb(244, 16, 16);    
@@ -90,8 +87,8 @@ main{
     background-color: white;
     background-image: url(../imagem/LogoGB.png);
     background-repeat: no-repeat;
-    background-size: 27%;    
-    width: 95%;
+    background-size: 30%;    
+    width: 80%;
         
 }
 main div{
@@ -109,85 +106,31 @@ main div h2{
     margin-bottom: 3%;
 }
 
-#resistencia{
+.bike{
     background-color: rgba(50, 44, 28, 0.766);
     display: flex;
     margin-top: 5%;
-    width: 95%;
+    width: 80%;
 }
-#resistencia div{
+.bike div{
     text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
-    margin-block: 5%;
-    font-size: 2vw;
-    color: rgb(170, 206, 22);   
-}
-#resistencia div h2{
-    font-size: 3vw;
-    margin-block: 5%;
-}
-#disponibilidade{
-    display: flex;
-    background-color: rgba(50, 44, 28, 0.766);
-    margin-block: 5%;
-    width: 95%;
-   
-}
-#disponibilidade div{
-    text-align: center;
-    margin-right: 12%;
-    margin-left: 12%;
-    margin-block: 8%;
-    font-size: 2vw;
-    color:rgb(170, 206, 22);
-}
-#disponibilidade div h2{
-    font-size: 3vw;
-    margin-block: 5%;
-}
-#sustentabilidade{
-    background-color: rgba(50, 44, 28, 0.766);
-    display: flex;
-    margin-block: 5%;
-    width: 95%;
-
-}
-#sustentabilidade div{
-text-align: center;
-margin-block: 5%;
-margin-left: 10%;
-margin-right: 10%;
-font-size: 2vw;
-color: rgb(170, 206, 22);
-}
-#sustentabilidade div h2{
-    font-size: 3vw;
-    margin-block: 5%;
-}
-#Contribuição{
-    background-color: rgba(50, 44, 28, 0.766);
-    display: flex;
-    margin-block: 5%;
-    width: 95%;
-}
-#Contribuição div{
-    text-align: center;
-    margin-block: 5%;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin: 5%;
+    align-items: center;
+    justify-content: center;
     font-size: 2vw;
     color: rgb(170, 206, 22);
-    }
-#Contribuição div h2{
-        font-size: 3vw;
-        margin-block: 5%;
-    }
+      
+}
+.bike div h2{
+    font-size: 3vw;
+    margin-block: 5%;
+}
     footer{
         text-align: center;
         background-color: rgba(50, 44, 28, 0.893);
         color: rgb(134, 134, 132);
         display: flexbox;
+        margin-top: 10%;
         
     }
     footer h1{
@@ -214,9 +157,10 @@ color: rgb(170, 206, 22);
 
 
     }
-    @media (max-width:535px) {
+    @media (max-width:735px) {
         body{
-           
+           background-image: none;
+           background-color: #1c3819dc;
         }    
         header{
             font-size: 3.5vw;   
@@ -237,6 +181,7 @@ color: rgb(170, 206, 22);
         aside{
             text-align: center;
             width: 90%;
+            box-shadow: 0px 0px 20px rgb(194, 243, 1);
 
         }
         aside div{
@@ -254,6 +199,7 @@ color: rgb(170, 206, 22);
         background-position: 50%;
         background-size: 75%;    
         width: 90%;
+        box-shadow: 0px 0px 20px rgb(194, 243, 1);
             
     }
     main div{
@@ -264,76 +210,26 @@ color: rgb(170, 206, 22);
     main div h2{
         font-size: 6vw;
     }
-    #resistencia{
-
+    .bike{
         display: flow-root;
         margin-top: 5%;
         width: 90%;
         margin-inline: 5%;
+        box-shadow: 0px 0px 20px rgb(194, 243, 1);
     }
-    #resistencia div{
+    .bike div{
         margin-bottom: 10%;
         font-size: 4vw;
-  
+        padding: 5%;
+          
     }
-    #resistencia img{
-        width: 100%;
-     }
-    #resistencia div h2{
+    .bike div h2{
         font-size: 6vw;
-   
-}
-#disponibilidade{
-    display: flow-root;
-    margin-top: 5%;
-    width: 90%;
-    margin-inline: 5%;
-   
-}
-#disponibilidade div{
-    margin-bottom: 10%;
-        font-size: 4vw;
-}
-#disponibilidade img{
-    width: 100%;
- }
-
-#disponibilidade div h2{
-    font-size: 6vw;
-}
-#sustentabilidade{
-    display: flow-root;
-    margin-top: 5%;
-    width: 90%;
-    margin-inline: 5%;
-
-}
-#sustentabilidade div{
-    margin-bottom: 10%;
-    font-size: 4vw;
-}
-#sustentabilidade img{
-    width: 100%;
- }
-#sustentabilidade div h2{
-    font-size: 6vw;
-}
-#Contribuição{
-    display: flow-root;
-    margin-top: 5%;
-    width: 90%;
-    margin-inline: 5%;
-}
-#Contribuição div{
-    font-size: 4vw;
     }
-    #Contribuição img{
+    .bike img{
         width: 100%;
-     }
-#Contribuição div h2{
-    font-size: 6vw;
     }
-        
+      
     footer h1{
         line-height: 9vw;
         font-size: 3vw;
